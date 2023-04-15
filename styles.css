@@ -1,11 +1,40 @@
-h1 {
-  font-family: "Chivo Mono", monospace;
-  font-family: "PT Serif", serif;
-  color: purple;
+body {
+  margin: 0;
 }
-i {
+.box {
+  padding: 160px 20px;
+  text-align: center;
+  background: #f9f7fe;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
   font-family: "Chivo Mono", monospace;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-family: "PT Serif", serif;
-  font-size: 26px;
-  color: plum;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 36px;
+}
+p {
+  font-size: 24px;
+  line-height: 2;
+  font-family: "Chivo Mono", monospace;
+  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
+.btn {
+  color: #fff;
+  background-color: #6c63ff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
 }
