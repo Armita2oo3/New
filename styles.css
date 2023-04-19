@@ -22,7 +22,7 @@ h1 {
 h2 {
   font-size: 36px;
 }
-p {
+box p {
   font-size: 24px;
   line-height: 2;
   font-family: "Chivo Mono", monospace;
@@ -30,11 +30,58 @@ p {
   font-family: "PT Serif", serif;
   font-weight: normal;
 }
-.btn {
+.box .btn {
   color: #fff;
   background-color: #6c63ff;
   padding: 15px 30px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.btn-branding-outline {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+
+  font-weight: 400;
+}
+img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.description {
+  padding: 20px 50px;
+}
+.description h2 {
+  font-size: 64px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 2;
+  }
+  p {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+    padding: 0;
+  }
+  .description h2 {
+    font-size: 40px;
+  }
+  .box h2 {
+    font-size: 40px;
+  }
+  .box {
+    padding: 80px 20px;
+  }
 }
